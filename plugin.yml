@@ -1,0 +1,16 @@
+# Prevent items from being dropped, based on permissions.
+# Copyright (C) 2013 Andrew Stevanus (Hoot215) <hoot893@gmail.com>
+# 
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+
+name: NoDropAdvanced
+main: me.hoot215.nodropadvanced.NoDropAdvanced
+version: 1.0
+author: Hoot215
+permissions:
+  nodropadvanced.nodrop:
+    description: 'Prevents player from dropping items (manually or on death)'
+    default: false
